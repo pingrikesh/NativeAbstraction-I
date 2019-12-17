@@ -1,0 +1,20 @@
+{
+  "name": "csc317hw8",
+  "version": "0.0.0",
+  "description": "Node.js Addons Example #3",
+  "main": "bindings.js",
+  "private": true,
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "nan": "^2.13.2"
+  },
+  "scripts": {
+    "build": "node-gyp build",
+    "install": "node-gyp rebuild",
+    "start": "node ./addon.js"
+  },
+  "devDependencies": {},
+  "author": "Rikesh Basnet",
+  "license": "ISC"
+}
